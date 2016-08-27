@@ -1,0 +1,83 @@
+html, body{
+  height:100%;
+}
+
+body{
+  background-image: url(../images/dallas-cowboys.jpg);
+  text-align: center;
+  font-family: 'Baloo Tamma', cursive;
+
+}
+
+#wrapper{
+  margin:2.5% auto;
+  background-color: #FFF17A;
+  width:960px;
+  height: 95%;
+  box-sizing: border-box;
+}
+
+#subwrapper{
+  position: relative;
+  top:15%;
+}
+button{
+  display:block;
+  width:50%;
+  height:20%;
+  margin: 0 auto;
+  border:none;
+  cursor: pointer;
+  background:transparent;
+  font-size: 42px;
+  color: white;
+  font-family: 'Baloo Tamma', cursive;
+}
+
+img{
+  height:200px;
+}
+
+h1{
+  font-size: 6.5em;
+  font-weight: bold;
+  color:blue;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  font-family: 'Bungee Shade', cursive;
+  margin: 100px;
+  margin-right: 150px;
+  margin-left: 150px;
+  background-color: white;
+  border-radius: 300px;
+
+}
+
+h2{
+  font-size: 35px;
+  margin-bottom: 25px;
+  color: white;
+}
+
+h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+#start{
+  margin-top: 10%;
+  border:10px solid blue;
+  background: pink;
+  color: white;
+  font-family: 'Baloo Tamma', cursive;
+}
+
+
+
+button:hover {
+  border:2px solid blue;
+  background: pink;
+  font-family: 'Baloo Tamma', cursive;
+  color: white;
+}
